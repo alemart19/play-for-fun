@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey Olimpico Milano Cortina 2026 - Francia vs Italia</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        h2 {
+            color: #1e3c72;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #2a5298;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .hockey-rules {
+            background: #f8f9fa;
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .images-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .image-item {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .image-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .image-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .image-caption {
+            padding: 10px;
+            background: #f8f9fa;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+        }
+
+        .match-info {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .match-info h3 {
+            color: white;
+            margin-top: 0;
+        }
+
+        .teams-score {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px 0;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        .team {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .country-flag {
+            font-size: 2em;
+        }
+
+        .score {
+            background: rgba(255, 255, 255, 0.3);
+            padding: 10px 20px;
+            border-radius: 5px;
+            width: 60px;
+            text-align: center;
+        }
+
+        .personal-comment {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+            border-left: 5px solid #ff6b6b;
+        }
+
+        .personal-comment h3 {
+            color: #d63031;
+            margin-top: 0;
+        }
+
+        .personal-comment p {
+            color: #2d3436;
+            font-style: italic;
+            font-size: 1.05em;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #ddd;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏒 Hockey Olimpico Milano Cortina 2026</h1>
+            <p>Francia vs Italia - Partita Femminile</p>
+        </header>
+
+        <div class="content">
+            <!-- Sezione Hockey -->
+            <section>
+                <h2>🎯 Come Funziona l'Hockey</h2>
+                
+                <p>L'hockey su ghiaccio è uno sport affascinante e dinamico giocato da due squadre di sei giocatori ciascuna (cinque skater e un portiere) che si affrontano su una pista di ghiaccio rettangolare. L'obiettivo è simple: segnare più gol della squadra avversaria usando una mazza di hockey per colpire un disco (puck) piccolo e nero.</p>
+
+                <div class="hockey-rules">
+                    <h3>📋 Regole Principali</h3>
+                    <ul>
+                        <li><strong>Durata della partita:</strong> Tre tempi da 20 minuti ciascuno con pause di 15 minuti tra un tempo e l'altro</li>
+                        <li><strong>Il puck:</strong> È un disco di gomma dura di circa 7,6 cm di diametro e 160 grammi di peso</li>
+                        <li><strong>La mazza:</strong> Deve essere realizzata in legno o materiali compositi con una lama che colpisce il puck</li>
+                        <li><strong>Marcature:</strong> Un gol si segna quando il puck entra completamente nella rete avversaria</li>
+                        <li><strong>Fuorigioco:</strong> Non è permesso trovarsi davanti al puck in zona di attacco senza che vi sia il puck o un compagno in possesso</li>
+                        <li><strong>Penalità:</strong> I falli vengono puniti con minuti trascorsi sul "penalty box" (panchina penalità)</li>
+                        <li><strong>Body checking:</strong> È consentito il contatto fisico controllato per allontanare l'avversario dal puck</li>
+                        <li><strong>La velocità:</strong> I giocatori possono raggiungere e superare i 40 km/h grazie ai pattini specializzati</li>
+                    </ul>
+                </div>
+
+                <h3>⚙️ Equipaggiamento</h3>
+                <p>I giocatori indossano protezioni complete per la sicurezza: casco con visiera, spallina, gomitiere, protezione per le mani, pantaloni imbottiti, calzettoni, e naturalmente i pattini da hockey. Il portiere ha equipaggiamento ancora più robusto con maschera protettiva, protezioni per il corpo molto più spesse e una mazza speciale più corta e larga.</p>
+            </section>
+
+            <!-- Sezione Stadio -->
+            <section>
+                <h2>🏟️ Lo Stadio - PalaItalia</h2>
+                
+                <p>La partita femminile di hockey tra la Francia e l'Italia si è svolta presso il <span class="highlight">PalaItalia</span>, uno degli impianti storici di Milano Cortina. Questo magnifico stadio è stato completamente rinnovato per i Giochi Olimpici Invernali di Milano Cortina 2026 ed è diventato il teatro di incredibili battaglie sportive sul ghiaccio.</p>
+
+                <div class="images-gallery">
+                    <div class="image-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Mediolanum_Forum_esterno.jpg/1024px-Mediolanum_Forum_esterno.jpg" alt="PalaItalia - Vista esterna">
+                        <div class="image-caption">Vista esterna del PalaItalia a Milano</div>
+                    </div>
+                    <div class="image-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Forum_Assago_night.jpg/1024px-Forum_Assago_night.jpg" alt="PalaItalia illuminato di sera">
+                        <div class="image-caption">PalaItalia illuminato per gli eventi serali</div>
+                    </div>
+                    <div class="image-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Assago_Forum_interior.jpg/1024px-Assago_Forum_interior.jpg" alt="Interno della pista di hockey">
+                        <div class="image-caption">Interno dello stadio con la pista di hockey</div>
+                    </div>
+                </div>
+
+                <p>Lo stadio può ospitare migliaia di spettatori ed è dotato di moderne strutture, grandi schermi per seguire l'azione e un'atmosfera elettrizzante. L'acustica perfetta amplifica i suoni della partita e i cori dei tifosi, creando un ambiente di gioco unico e memorabile.</p>
+            </section>
+
+            <!-- Sezione Partita -->
+            <section>
+                <h2>⚔️ La Partita: Francia vs Italia</h2>
+
+                <div class="match-info">
+                    <h3>📊 Informazioni della Partita</h3>
+                    <div class="teams-score">
+                        <div class="team">
+                            <span class="country-flag">🇫🇷</span>
+                            <span>Francia</span>
+                        </div>
+                        <div class="score">3</div>
+                        <div>-</div>
+                        <div class="score">2</div>
+                        <div class="team">
+                            <span>Italia</span>
+                            <span class="country-flag">🇮🇹</span>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin: 0; font-size: 0.95em; opacity: 0.95;">Milano Cortina 2026 - Fase di Girone</p>
+                </div>
+
+                <h3>📅 Andamento della Partita</h3>
+
+                <h3>🥶 Primo Tempo</h3>
+                <p>La partita inizia con grande intensità. Entrambe le squadre scendono in campo cariche di adrenalina e determinazione. La Francia parte bene con il gioco, sfruttando una buona mobilità e velocità. Dopo circa 8 minuti, <span class="highlight">la Francia segna il primo gol</span> con una bella azione coordinata che mette sotto pressione la difesa italiana. L'Italia risponde subito con determinazione, cercando di pareggiare prima della fine del primo tempo. Il primo tempo si conclude con la Francia in vantaggio 1-0.</p>
+
+                <h3>🔥 Secondo Tempo</h3>
+                <p>Nel secondo tempo l'Italia entra in campo con una strategia più aggressiva. Dopo pochi minuti di gioco, gli attacchi azzurri portano i frutti: <span class="highlight">l'Italia pareggia 1-1</span>. Il ritmo della partita aumenta considerevolmente e il gioco diventa molto più intenso. I contrasti aumentano, i due portieri si trovano a fare grandi interventi. Verso la fine del secondo tempo, <span class="highlight">la Francia segna il secondo gol</span> tornando in vantaggio 2-1. Prima della fine però, <span class="highlight">l'Italia riesce a pareggiare nuovamente 2-2</span> con una bellissima giocata del loro numero 7.</p>
+
+                <h3>❄️ Terzo Tempo</h3>
+                <p>Il terzo tempo è emozionante e ricco di emozioni. Entrambe le squadre giocano con il coltello tra i denti, cercando di scardinare le difese avversarie. La partita rimane in equilibrio e il pubblico dello stadio è in piedi costantemente. A circa 14 minuti dalla fine, <span class="highlight">la Francia riesce a segnare il gol decisivo</span> e si porta sul 3-2. L'Italia tenta disperatamente di pareggiare negli ultimi minuti, creando diverse occasioni da gol, ma il portiere francese fa degli interventi decisivi. Il match si conclude 3-2 per la Francia, un risultato tiratissimo che rispecchia perfettamente l'equilibrio tra le due squadre.</p>
+            </section>
+
+            <!-- Commento Personale -->
+            <section>
+                <div class="personal-comment">
+                    <h3>💭 Il Mio Commento Personale</h3>
+                    <p>
+                        Che partita meravigliosa! Non potevo immaginare di provare tali emozioni davanti al ghiaccio. Da quando ho messo piede nel PalaItalia e ho visto le due squadre entrare sul ghiaccio, ho sentito una scarica di adrenalina indescrivibile. <br><br>
+                        
+                        L'hockey è uno sport che riesce a catturare l'anima dello spettatore: la velocità, la precisione, i contrasti, i colpi spettacolari... ogni secondo della partita mi teneva sul bordo del sedile. Mi è piaciuto enormemente vedere sia la Francia che l'Italia giocare con tutto il cuore, con grande sportività e skill impressionanti. <br><br>
+                        
+                        Quello che più mi ha colpito è stata l'atmosfera nello stadio: migliaia di persone che tifavano passionalmente, il suono dei pattini sul ghiaccio, i cori dei tifosi che rimbalzavano tra le mura del PalaItalia. È stato magico! Mi sono divertito tantissimo, ogni gol mi ha fatto saltare in piedi, ogni parata del portiere mi ha fatto trattenere il fiato. <br><br>
+                        
+                        Questa partita tra Francia e Italia rimarrà per sempre uno dei ricordi più belli dei Giochi Olimpici Milano Cortina 2026. Lo sport ha questa capacità incredibile di unire le persone, di far vibrare il cuore, di creare momenti indimenticabili. Grazie a queste due squadre straordinarie per avermi regalato una serata di puro spettacolo e divertimento! 🎉
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p><strong>Milano Cortina 2026 - Giochi Olimpici Invernali</strong></p>
+            <p>Hockey su Ghiaccio - Torneo Femminile</p>
+            <p>© 2026 - Pagina creata per celebrare i Giochi Olimpici</p>
+        </footer>
+    </div>
+</body>
+</html>
